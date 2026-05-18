@@ -3,480 +3,614 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Market Mentor</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2192026724887128');
-fbq('track', 'PageView');
+<!-- ═══ SEO META TAGS ═══ -->
+<title>Munaaf Mentor</title>
+<meta name="description" content="Learn Smart Money Concepts with India's #1 free trading educator Munaf. Join the free Telegram community — daily market analysis, live charts, and complete SMC education from beginner to advanced. 1 million+ traders already joined.">
+<meta name="keywords" content="smart money concepts, free trading education india, munaf trading, SMC trading, forex trading india, nifty trading, telegram trading group, free trading course india, order blocks, liquidity sweeps">
+<meta name="author" content="Trade with Munaf™">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://tradewithmunaf.com/">
+
+<!-- ═══ OPEN GRAPH (Facebook/Meta) ═══ -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tradewithmunaf.com/">
+<meta property="og:title" content="Free SMC Trading Education | Trade with Munaf™ | 1M+ Traders">
+<meta property="og:description" content="Learn Smart Money Concepts completely free. Join India's largest free trading community. Daily market analysis, live chart sessions, and real trading education — no fees, no spam.">
+<meta property="og:image" content="https://tradewithmunaf.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Trade with Munaf - Free SMC Trading Education India">
+<meta property="og:site_name" content="Trade with Munaf™">
+<meta property="og:locale" content="en_IN">
+
+<!-- ═══ TWITTER/X CARD ═══ -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free SMC Trading Education | Trade with Munaf™">
+<meta name="twitter:description" content="Free community of 1M+ traders — Smart Money Concepts, daily analysis, live charts. Join today.">
+<meta name="twitter:image" content="https://tradewithmunaf.com/og-image.jpg">
+
+<!-- ═══ STRUCTURED DATA (Schema.org) ═══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Trade with Munaf™",
+  "description": "Free Smart Money Concepts trading education community for Indian traders",
+  "url": "https://tradewithmunaf.com",
+  "sameAs": ["https://t.me/tradewithmunaf"],
+  "founder": {
+    "@type": "Person",
+    "name": "Munaf",
+    "jobTitle": "Trading Educator & Market Mentor",
+    "knowsAbout": ["Smart Money Concepts", "Forex Trading", "Technical Analysis", "Order Blocks", "Liquidity Sweeps"]
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR",
+    "description": "Free trading education and community access"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "12400",
+    "bestRating": "5"
+  }
+}
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2192026724887128&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-  
+
+<!-- ═══ META PIXEL ═══ -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','2192026724887128');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2192026724887128&ev=PageView&noscript=1"/></noscript>
+
+<!-- ═══ FONTS ═══ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
 <style>
 :root{
-  --gold:#f5c518;
-  --gold-dark:#c9a10e;
-  --gold-light:#fde68a;
-  --bg:#050811;
-  --bg2:#090f1e;
-  --bg3:#0d1526;
-  --card:rgba(255,255,255,0.03);
-  --border:rgba(245,197,24,0.15);
-  --text:#e8eaf0;
-  --muted:#7b859a;
-  --green:#22c55e;
-  --green-dark:#16a34a;
+  --gold:#e8b84b;
+  --gold-dim:rgba(232,184,75,0.15);
+  --gold-border:rgba(232,184,75,0.2);
+  --bg:#04080f;
+  --bg2:#07101c;
+  --bg3:#0a1628;
+  --card:rgba(255,255,255,0.025);
+  --card-hover:rgba(255,255,255,0.05);
+  --text:#dde3ed;
+  --muted:#5e6d85;
+  --muted2:#8a99b0;
+  --green:#1db954;
+  --green-dark:#17a349;
+  --green-glow:rgba(29,185,84,0.25);
+  --radius:20px;
 }
 
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 
 body{
-  font-family:'DM Sans',sans-serif;
+  font-family:'Sora',sans-serif;
   background:var(--bg);
   color:var(--text);
   overflow-x:hidden;
   line-height:1.6;
+  -webkit-font-smoothing:antialiased;
 }
 
-/* ─── GRID BACKGROUND ─── */
+/* ─── GRID BG ─── */
 body::before{
   content:'';
   position:fixed;inset:0;
   background-image:
-    linear-gradient(rgba(245,197,24,0.03) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(245,197,24,0.03) 1px,transparent 1px);
-  background-size:60px 60px;
+    linear-gradient(rgba(232,184,75,0.025) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(232,184,75,0.025) 1px,transparent 1px);
+  background-size:64px 64px;
   pointer-events:none;z-index:0;
 }
 
 /* ─── NAV ─── */
 nav{
-  position:fixed;top:0;left:0;right:0;z-index:100;
+  position:fixed;top:0;left:0;right:0;z-index:200;
   display:flex;align-items:center;justify-content:space-between;
-  padding:16px 40px;
-  background:rgba(5,8,17,0.85);
-  backdrop-filter:blur(20px);
-  border-bottom:1px solid var(--border);
-  animation:slideDown .6s ease both;
+  padding:14px 40px;
+  background:rgba(4,8,15,0.88);
+  backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  border-bottom:1px solid var(--gold-border);
+  animation:slideDown .5s ease both;
 }
 @keyframes slideDown{from{transform:translateY(-100%);opacity:0}to{transform:translateY(0);opacity:1}}
 
 .nav-logo{
-  font-family:'Playfair Display',serif;
-  font-size:20px;font-weight:900;
-  color:var(--gold);
-  letter-spacing:-0.5px;
+  font-family:'Instrument Serif',serif;
+  font-size:21px;font-weight:400;
+  color:var(--gold);letter-spacing:-0.3px;
+  text-decoration:none;
 }
-.nav-logo span{color:#fff;}
+.nav-logo em{font-style:italic;color:#fff;}
 
-.nav-badge{
-  font-size:11px;font-weight:600;
-  padding:6px 14px;border-radius:30px;
-  background:rgba(245,197,24,0.12);
-  border:1px solid var(--border);
-  color:var(--gold);
-  letter-spacing:0.5px;
+.nav-center{
+  display:flex;align-items:center;gap:8px;
+  font-size:11px;font-weight:600;letter-spacing:.8px;
+  color:var(--muted2);text-transform:uppercase;
 }
+.nav-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:blink 2s infinite;}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
 
 .nav-cta{
   text-decoration:none;
-  padding:9px 20px;border-radius:30px;
+  padding:9px 22px;border-radius:40px;
   background:linear-gradient(135deg,var(--green),var(--green-dark));
-  color:#fff;font-weight:600;font-size:13px;
+  color:#fff;font-weight:700;font-size:12px;letter-spacing:.3px;
   transition:transform .2s,box-shadow .2s;
-  box-shadow:0 4px 20px rgba(34,197,94,0.3);
+  box-shadow:0 4px 20px var(--green-glow);
 }
-.nav-cta:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(34,197,94,0.4);}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(29,185,84,0.4);}
 
 /* ─── HERO ─── */
 .hero{
   min-height:100vh;
   display:flex;align-items:center;justify-content:center;
-  padding:120px 20px 80px;
-  position:relative;
-  overflow:hidden;
+  padding:130px 20px 90px;
+  position:relative;z-index:1;
 }
 
-.hero-glow{
+.hero-orb{
   position:absolute;
-  width:700px;height:700px;border-radius:50%;
-  background:radial-gradient(circle,rgba(245,197,24,0.06) 0%,transparent 70%);
+  width:600px;height:600px;border-radius:50%;
+  background:radial-gradient(circle,rgba(232,184,75,0.05) 0%,transparent 65%);
   top:50%;left:50%;transform:translate(-50%,-50%);
   pointer-events:none;
 }
 
 .hero-inner{
-  max-width:760px;width:100%;
-  text-align:center;position:relative;z-index:1;
+  max-width:720px;width:100%;
+  text-align:center;position:relative;
 }
 
-.hero-eyebrow{
+.hero-badge{
   display:inline-flex;align-items:center;gap:8px;
-  padding:8px 18px;border-radius:30px;
-  background:rgba(245,197,24,0.08);
-  border:1px solid var(--border);
-  font-size:12px;font-weight:600;
-  color:var(--gold);letter-spacing:1px;text-transform:uppercase;
-  margin-bottom:32px;
-  animation:fadeUp .7s ease .2s both;
+  padding:8px 18px;border-radius:40px;
+  background:var(--gold-dim);
+  border:1px solid var(--gold-border);
+  font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--gold);
+  margin-bottom:36px;
+  animation:fadeUp .6s ease .1s both;
 }
-.eyebrow-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:pulse 2s infinite;}
-@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
+.hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
 
 .avatar-wrap{
   position:relative;display:inline-block;
-  margin-bottom:28px;
-  animation:fadeUp .7s ease .3s both;
+  margin-bottom:32px;
+  animation:fadeUp .6s ease .2s both;
 }
 .avatar-ring{
-  width:120px;height:120px;border-radius:50%;
-  border:2px solid var(--gold);
-  padding:4px;
-  background:linear-gradient(135deg,rgba(245,197,24,0.2),transparent);
+  width:110px;height:110px;border-radius:50%;
+  border:1.5px solid var(--gold);
+  padding:3px;
 }
 .avatar-ring img{
-  width:100%;height:100%;border-radius:50%;object-fit:cover;
-  display:block;
+  width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;
 }
-.avatar-online{
-  position:absolute;bottom:6px;right:6px;
-  width:18px;height:18px;border-radius:50%;
-  background:#22c55e;border:3px solid var(--bg);
+.live-badge{
+  position:absolute;bottom:4px;right:4px;
+  background:#1db954;border-radius:20px;
+  padding:3px 8px;font-size:9px;font-weight:700;
+  color:#fff;letter-spacing:.5px;border:2px solid var(--bg);
 }
 
-.hero-name{
-  font-family:'Playfair Display',serif;
-  font-size:clamp(38px,6vw,68px);
-  font-weight:900;line-height:1.05;
-  letter-spacing:-2px;
-  margin-bottom:12px;
-  animation:fadeUp .7s ease .4s both;
+.hero-title{
+  font-family:'Instrument Serif',serif;
+  font-size:clamp(40px,6.5vw,72px);
+  font-weight:400;line-height:1.05;
+  letter-spacing:-1.5px;
+  margin-bottom:14px;
+  animation:fadeUp .6s ease .3s both;
 }
-.hero-name .gold{color:var(--gold);}
+.hero-title .accent{color:var(--gold);font-style:italic;}
 
 .hero-sub{
-  font-size:clamp(15px,2vw,18px);
-  color:var(--muted);font-weight:400;
-  margin-bottom:36px;
-  animation:fadeUp .7s ease .5s both;
-  max-width:520px;margin-left:auto;margin-right:auto;
+  font-size:clamp(14px,1.8vw,16px);
+  color:var(--muted2);font-weight:400;line-height:1.8;
+  max-width:480px;margin:0 auto 40px;
+  animation:fadeUp .6s ease .4s both;
 }
 
-.stats-row{
-  display:flex;gap:12px;justify-content:center;flex-wrap:wrap;
-  margin-bottom:44px;
-  animation:fadeUp .7s ease .6s both;
+.stats-bar{
+  display:flex;gap:10px;justify-content:center;flex-wrap:wrap;
+  margin-bottom:48px;
+  animation:fadeUp .6s ease .5s both;
 }
-.stat-pill{
-  padding:10px 20px;border-radius:30px;
-  background:var(--card);
-  border:1px solid var(--border);
-  font-size:13px;font-weight:600;
+.stat-chip{
+  padding:9px 18px;border-radius:40px;
+  background:var(--card);border:1px solid var(--gold-border);
+  font-size:12px;font-weight:600;
+  display:flex;align-items:center;gap:6px;
 }
-.stat-pill .num{color:var(--gold);}
+.stat-chip .val{color:var(--gold);}
+.stat-chip .lbl{color:var(--muted2);}
 
-.cta-group{
-  display:flex;flex-direction:column;align-items:center;gap:12px;
-  animation:fadeUp .7s ease .7s both;
+.cta-stack{
+  display:flex;flex-direction:column;align-items:center;gap:14px;
+  animation:fadeUp .6s ease .6s both;
 }
 
-.btn-main{
+.btn-primary{
   display:inline-flex;align-items:center;gap:10px;
-  padding:18px 40px;border-radius:50px;
-  background:linear-gradient(135deg,#22c55e,#16a34a);
-  color:#fff;font-weight:700;font-size:16px;
+  padding:17px 38px;border-radius:50px;
+  background:linear-gradient(135deg,#1db954,#17a349);
+  color:#fff;font-weight:700;font-size:15px;letter-spacing:.2px;
   text-decoration:none;cursor:pointer;border:none;
-  box-shadow:0 8px 40px rgba(34,197,94,0.35);
+  box-shadow:0 8px 40px var(--green-glow);
   transition:transform .2s,box-shadow .2s;
-  letter-spacing:0.3px;
+  font-family:'Sora',sans-serif;
 }
-.btn-main:hover{transform:translateY(-3px);box-shadow:0 16px 50px rgba(34,197,94,0.45);}
-.btn-main svg{width:20px;height:20px;fill:currentColor;}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 16px 50px rgba(29,185,84,.45);}
 
-.cta-note{font-size:12px;color:var(--muted);}
-.cta-note span{color:#f87171;font-weight:600;}
+.cta-fine{font-size:11.5px;color:var(--muted);letter-spacing:.3px;}
+.cta-fine strong{color:#f87171;font-weight:700;}
 
-@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+
+/* ─── DISCLOSURE BANNER ─── */
+.disclosure{
+  background:rgba(232,184,75,0.06);
+  border-top:1px solid var(--gold-border);
+  border-bottom:1px solid var(--gold-border);
+  padding:14px 24px;
+  text-align:center;
+  font-size:11.5px;color:var(--muted2);
+  position:relative;z-index:1;
+  line-height:1.8;
+}
+.disclosure strong{color:var(--gold);}
 
 /* ─── TICKER ─── */
 .ticker{
-  background:rgba(245,197,24,0.06);
-  border-top:1px solid var(--border);
-  border-bottom:1px solid var(--border);
-  padding:12px 0;overflow:hidden;position:relative;
+  background:rgba(0,0,0,0.4);
+  border-bottom:1px solid var(--gold-border);
+  padding:11px 0;overflow:hidden;
+  position:relative;z-index:1;
 }
-.ticker-inner{
-  display:flex;gap:60px;
-  animation:ticker 25s linear infinite;
+.ticker-track{
+  display:flex;gap:56px;
+  animation:tickerScroll 28s linear infinite;
   white-space:nowrap;width:max-content;
 }
-.ticker-item{
-  font-size:12px;font-weight:600;color:var(--muted);
-  letter-spacing:0.5px;
-}
-.ticker-item .up{color:#22c55e;}
+.ticker-item{font-size:11.5px;font-weight:600;color:var(--muted);letter-spacing:.4px;}
+.ticker-item .up{color:#1db954;}
 .ticker-item .dn{color:#f87171;}
-@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ticker-item .sym{color:var(--muted2);}
+@keyframes tickerScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
-/* ─── FEATURES ─── */
-.section{
-  padding:90px 20px;
-  max-width:1100px;margin:0 auto;
+/* ─── EDUCATION SECTION ─── */
+.edu-strip{
+  background:linear-gradient(180deg,var(--bg2),var(--bg));
+  border-top:1px solid var(--gold-border);
+  border-bottom:1px solid var(--gold-border);
+  padding:72px 20px;
   position:relative;z-index:1;
 }
+.edu-inner{max-width:960px;margin:0 auto;text-align:center;}
 
-.section-label{
-  font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
-  color:var(--gold);margin-bottom:12px;text-align:center;
+.section-eyebrow{
+  font-size:10.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+  color:var(--gold);margin-bottom:14px;
+  display:flex;align-items:center;justify-content:center;gap:10px;
+}
+.section-eyebrow::before,.section-eyebrow::after{
+  content:'';width:28px;height:1px;background:var(--gold-border);
 }
 
-.section-title{
-  font-family:'Playfair Display',serif;
-  font-size:clamp(28px,4vw,44px);
-  font-weight:900;letter-spacing:-1px;
-  text-align:center;margin-bottom:16px;
+.section-h{
+  font-family:'Instrument Serif',serif;
+  font-size:clamp(26px,3.8vw,44px);
+  font-weight:400;letter-spacing:-1px;
+  margin-bottom:14px;line-height:1.15;
 }
+.section-h .italic{font-style:italic;color:var(--gold);}
 
-.section-sub{
-  text-align:center;color:var(--muted);font-size:15px;
-  max-width:500px;margin:0 auto 56px;
-}
+.section-p{font-size:14px;color:var(--muted2);max-width:480px;margin:0 auto 56px;line-height:1.8;}
 
-.features-grid{
+.edu-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-  gap:20px;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:16px;
+  text-align:left;
 }
 
-.feat-card{
+.edu-card{
   background:var(--card);
-  border:1px solid var(--border);
-  border-radius:20px;padding:28px 24px;
-  transition:border-color .3s,transform .3s;
+  border:1px solid var(--gold-border);
+  border-radius:18px;padding:26px 22px;
+  transition:background .25s,border-color .25s,transform .25s;
   position:relative;overflow:hidden;
 }
-.feat-card::before{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(135deg,rgba(245,197,24,0.04),transparent);
+.edu-card::after{
+  content:'';position:absolute;
+  top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(232,184,75,0.4),transparent);
   opacity:0;transition:opacity .3s;
 }
-.feat-card:hover{border-color:rgba(245,197,24,0.4);transform:translateY(-4px);}
-.feat-card:hover::before{opacity:1;}
+.edu-card:hover{background:var(--card-hover);border-color:rgba(232,184,75,.35);transform:translateY(-3px);}
+.edu-card:hover::after{opacity:1;}
 
-.feat-icon{
-  width:48px;height:48px;border-radius:14px;
-  background:rgba(245,197,24,0.1);
-  display:flex;align-items:center;justify-content:center;
-  font-size:22px;margin-bottom:18px;
-  border:1px solid rgba(245,197,24,0.2);
+.edu-icon{
+  font-size:28px;margin-bottom:16px;
+  display:block;
+}
+.edu-name{font-weight:700;font-size:15px;margin-bottom:8px;color:var(--text);}
+.edu-desc{font-size:12.5px;color:var(--muted2);line-height:1.75;}
+.edu-tag{
+  margin-top:14px;
+  display:inline-block;
+  padding:3px 10px;border-radius:20px;
+  background:var(--gold-dim);
+  font-size:10px;font-weight:700;letter-spacing:.6px;
+  color:var(--gold);text-transform:uppercase;
 }
 
-.feat-title{font-weight:700;font-size:16px;margin-bottom:8px;}
-.feat-desc{font-size:13px;color:var(--muted);line-height:1.7;}
-
-/* ─── ABOUT STRIP ─── */
-.about-strip{
-  background:var(--bg2);
-  border-top:1px solid var(--border);
-  border-bottom:1px solid var(--border);
-  padding:70px 20px;
-}
-.about-inner{
+/* ─── CURRICULUM ─── */
+.curriculum{
+  padding:80px 20px;
   max-width:1000px;margin:0 auto;
-  display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;
-}
-.about-img{
-  position:relative;
-}
-.about-img-frame{
-  border-radius:24px;overflow:hidden;
-  border:2px solid var(--border);
-  aspect-ratio:1;
-  background:var(--bg3);
-  display:flex;align-items:center;justify-content:center;
-}
-.about-img-frame img{width:100%;height:100%;object-fit:cover;}
-.about-accent{
-  position:absolute;bottom:-20px;right:-20px;
-  background:var(--gold);color:#000;
-  border-radius:16px;padding:16px 20px;
-  font-weight:800;font-size:13px;
-  box-shadow:0 10px 40px rgba(245,197,24,0.3);
-}
-.about-accent .big{font-size:28px;font-weight:900;display:block;line-height:1;}
-
-.about-content .section-title{text-align:left;margin-bottom:16px;}
-.about-content .section-label{text-align:left;}
-.about-content p{color:var(--muted);font-size:14px;line-height:1.8;margin-bottom:16px;}
-.about-checks{list-style:none;margin-top:20px;}
-.about-checks li{
-  font-size:14px;font-weight:500;
-  padding:8px 0;
-  border-bottom:1px solid rgba(255,255,255,0.05);
-  display:flex;align-items:center;gap:12px;
-}
-.about-checks li::before{content:'✦';color:var(--gold);font-size:10px;}
-
-/* ─── SOCIAL PROOF ─── */
-.proof-section{
-  padding:90px 20px;
-  max-width:1100px;margin:0 auto;
   position:relative;z-index:1;
 }
-.proof-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:20px;
+
+.curr-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:14px;margin-top:48px;
 }
-.proof-card{
+
+.curr-item{
   background:var(--card);
-  border:1px solid var(--border);
-  border-radius:20px;padding:24px;
+  border:1px solid var(--gold-border);
+  border-radius:16px;
+  padding:20px 22px;
+  display:flex;align-items:flex-start;gap:16px;
 }
-.proof-stars{color:var(--gold);font-size:13px;margin-bottom:12px;letter-spacing:2px;}
-.proof-text{font-size:14px;color:var(--text);line-height:1.7;margin-bottom:16px;}
-.proof-author{display:flex;align-items:center;gap:10px;}
-.proof-avatar{
+.curr-num{
+  font-family:'Instrument Serif',serif;
+  font-size:32px;font-weight:400;
+  color:var(--gold-border);line-height:1;
+  flex-shrink:0;width:40px;
+}
+.curr-body{}
+.curr-title{font-weight:600;font-size:13.5px;margin-bottom:5px;}
+.curr-desc{font-size:12px;color:var(--muted2);line-height:1.7;}
+
+/* ─── ABOUT ─── */
+.about-section{
+  background:var(--bg2);
+  border-top:1px solid var(--gold-border);
+  border-bottom:1px solid var(--gold-border);
+  padding:80px 20px;
+  position:relative;z-index:1;
+}
+.about-inner{
+  max-width:900px;margin:0 auto;
+  display:grid;grid-template-columns:260px 1fr;gap:56px;align-items:start;
+}
+.about-photo{
+  position:relative;
+}
+.about-photo-frame{
+  border-radius:22px;overflow:hidden;
+  border:1px solid var(--gold-border);
+  background:var(--bg3);
+  aspect-ratio:.85;
+}
+.about-photo-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.about-badge{
+  position:absolute;bottom:-14px;left:50%;transform:translateX(-50%);
+  background:var(--gold);color:#000;
+  border-radius:12px;padding:12px 18px;text-align:center;
+  font-weight:800;font-size:11px;white-space:nowrap;
+  box-shadow:0 8px 30px rgba(232,184,75,.3);
+}
+.about-badge .big{font-size:22px;font-weight:900;display:block;line-height:1.1;}
+
+.about-right .section-h{text-align:left;margin-bottom:8px;}
+.about-right .section-eyebrow{justify-content:flex-start;}
+.about-right .section-eyebrow::before{display:none;}
+.about-right p{font-size:13.5px;color:var(--muted2);line-height:1.85;margin-bottom:14px;}
+
+.about-list{list-style:none;margin-top:24px;}
+.about-list li{
+  padding:11px 0;border-bottom:1px solid rgba(255,255,255,.05);
+  font-size:13px;font-weight:500;
+  display:flex;align-items:center;gap:12px;
+  color:var(--text);
+}
+.about-list li .icon{color:var(--gold);font-size:14px;}
+
+/* ─── SOCIAL PROOF ─── */
+.testimonials{
+  padding:80px 20px;
+  max-width:1000px;margin:0 auto;
+  position:relative;z-index:1;
+}
+.t-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+  gap:16px;margin-top:48px;
+}
+.t-card{
+  background:var(--card);border:1px solid var(--gold-border);
+  border-radius:18px;padding:24px;
+}
+.t-stars{color:var(--gold);font-size:12px;letter-spacing:2px;margin-bottom:12px;}
+.t-text{font-size:13.5px;line-height:1.75;color:var(--text);margin-bottom:18px;}
+.t-author{display:flex;align-items:center;gap:10px;}
+.t-avatar{
   width:36px;height:36px;border-radius:50%;
-  background:linear-gradient(135deg,var(--gold),#c9a10e);
+  background:linear-gradient(135deg,var(--gold),#c9930d);
   display:flex;align-items:center;justify-content:center;
-  font-weight:700;font-size:14px;color:#000;
+  font-weight:800;font-size:13px;color:#000;flex-shrink:0;
 }
-.proof-name{font-weight:600;font-size:13px;}
-.proof-location{font-size:11px;color:var(--muted);}
+.t-name{font-weight:700;font-size:12.5px;}
+.t-loc{font-size:11px;color:var(--muted);}
+
+/* ─── FAQ ─── */
+.faq-section{
+  padding:80px 20px;
+  max-width:720px;margin:0 auto;
+  position:relative;z-index:1;
+}
+.faq-list{margin-top:48px;}
+.faq-item{
+  border:1px solid var(--gold-border);border-radius:14px;
+  margin-bottom:10px;overflow:hidden;
+}
+.faq-q{
+  padding:18px 22px;cursor:pointer;
+  display:flex;align-items:center;justify-content:space-between;
+  font-weight:600;font-size:14px;
+  background:var(--card);
+  list-style:none;
+  user-select:none;
+}
+.faq-q::after{
+  content:'+';font-size:20px;color:var(--gold);
+  transition:transform .25s;flex-shrink:0;margin-left:12px;
+}
+.faq-item.open .faq-q::after{transform:rotate(45deg);}
+.faq-a{
+  max-height:0;overflow:hidden;
+  transition:max-height .35s ease,padding .25s;
+  font-size:13px;color:var(--muted2);line-height:1.8;
+  padding:0 22px;
+}
+.faq-item.open .faq-a{max-height:300px;padding:0 22px 18px;}
 
 /* ─── FINAL CTA ─── */
-.final-cta{
+.final-section{
   padding:100px 20px;
-  text-align:center;position:relative;z-index:1;
+  position:relative;z-index:1;
+  text-align:center;
 }
-.final-cta-box{
-  max-width:680px;margin:0 auto;
+.final-box{
+  max-width:640px;margin:0 auto;
   background:var(--bg2);
-  border:1px solid var(--border);
-  border-radius:32px;padding:60px 40px;
+  border:1px solid var(--gold-border);
+  border-radius:28px;padding:60px 40px;
   position:relative;overflow:hidden;
 }
-.final-cta-box::before{
+.final-box::before{
   content:'';position:absolute;
-  width:400px;height:400px;border-radius:50%;
-  background:radial-gradient(circle,rgba(245,197,24,0.07),transparent 70%);
-  top:-100px;right:-100px;pointer-events:none;
+  width:350px;height:350px;border-radius:50%;
+  background:radial-gradient(circle,rgba(232,184,75,.06),transparent 70%);
+  top:-100px;right:-80px;pointer-events:none;
 }
-.final-cta .section-title{margin-bottom:16px;}
-.final-cta .section-sub{margin-bottom:36px;}
+.final-box .section-p{margin-bottom:36px;}
+
+/* ─── DISCLAIMER ─── */
+.disclaimer-section{
+  background:var(--bg2);
+  border-top:1px solid rgba(255,255,255,.05);
+  padding:40px 20px;
+  position:relative;z-index:1;
+}
+.disclaimer-inner{
+  max-width:800px;margin:0 auto;
+  text-align:center;
+}
+.disclaimer-inner h4{
+  font-size:13px;font-weight:700;
+  color:var(--gold);margin-bottom:14px;
+  letter-spacing:.5px;text-transform:uppercase;
+}
+.disclaimer-inner p{
+  font-size:11px;color:var(--muted);line-height:1.8;
+}
 
 /* ─── FOOTER ─── */
 footer{
-  border-top:1px solid var(--border);
-  padding:30px 20px;
+  border-top:1px solid var(--gold-border);
+  padding:28px 20px;
   text-align:center;
-  font-size:11px;color:var(--muted);
   position:relative;z-index:1;
 }
-footer a{color:var(--muted);text-decoration:none;}
-footer a:hover{color:var(--gold);}
 .footer-logo{
-  font-family:'Playfair Display',serif;
-  font-size:18px;font-weight:900;
-  color:var(--gold);margin-bottom:10px;
+  font-family:'Instrument Serif',serif;
+  font-size:20px;color:var(--gold);margin-bottom:8px;
 }
+.footer-links{
+  display:flex;justify-content:center;gap:20px;
+  font-size:11px;margin-bottom:10px;
+}
+.footer-links a{color:var(--muted);text-decoration:none;}
+.footer-links a:hover{color:var(--gold);}
+.footer-copy{font-size:10.5px;color:var(--muted);}
 
 /* ─── TIMER OVERLAY ─── */
-.timer-overlay{
+.overlay{
   position:fixed;inset:0;z-index:999;
-  background:rgba(5,8,17,0.97);
-  backdrop-filter:blur(20px);
+  background:rgba(4,8,15,0.96);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
   display:flex;align-items:center;justify-content:center;
-  opacity:0;pointer-events:none;
-  transition:opacity .4s;
+  opacity:0;pointer-events:none;transition:opacity .35s;
 }
-.timer-overlay.active{opacity:1;pointer-events:all;}
-
-.timer-box{
-  background:var(--bg2);
-  border:1px solid var(--border);
-  border-radius:28px;padding:50px 40px;
-  text-align:center;max-width:420px;width:90%;
-  position:relative;
-  transform:scale(0.9);transition:transform .4s;
+.overlay.active{opacity:1;pointer-events:all;}
+.overlay-box{
+  background:var(--bg2);border:1px solid var(--gold-border);
+  border-radius:26px;padding:48px 38px;
+  text-align:center;max-width:400px;width:90%;
+  transform:scale(.92);transition:transform .35s;
 }
-.timer-overlay.active .timer-box{transform:scale(1);}
-
-.timer-icon{font-size:48px;margin-bottom:20px;}
-.timer-title{
-  font-family:'Playfair Display',serif;
-  font-size:24px;font-weight:900;margin-bottom:8px;
+.overlay.active .overlay-box{transform:scale(1);}
+.overlay-icon{font-size:44px;margin-bottom:18px;}
+.overlay-title{
+  font-family:'Instrument Serif',serif;
+  font-size:26px;margin-bottom:8px;
 }
-.timer-sub{font-size:14px;color:var(--muted);margin-bottom:30px;}
-
-.timer-ring{
-  width:110px;height:110px;margin:0 auto 24px;
-  position:relative;
+.overlay-sub{font-size:13px;color:var(--muted2);margin-bottom:28px;line-height:1.7;}
+.ring{width:104px;height:104px;margin:0 auto 22px;position:relative;}
+.ring svg{width:104px;height:104px;transform:rotate(-90deg);}
+.ring circle{fill:none;stroke-width:5;stroke-linecap:round;}
+.ring-track{stroke:var(--gold-dim);}
+.ring-fill{stroke:var(--gold);stroke-dasharray:295;stroke-dashoffset:0;transition:stroke-dashoffset 1s linear;}
+.ring-num{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  font-family:'Instrument Serif',serif;font-size:36px;color:var(--gold);
 }
-.timer-ring svg{width:110px;height:110px;transform:rotate(-90deg);}
-.timer-ring circle{
-  fill:none;stroke-width:5;
-  stroke-linecap:round;
-}
-.timer-track{stroke:rgba(245,197,24,0.12);}
-.timer-fill{
-  stroke:var(--gold);
-  stroke-dasharray:314;
-  stroke-dashoffset:0;
-  transition:stroke-dashoffset 1s linear;
-}
-.timer-count{
-  position:absolute;top:50%;left:50%;
-  transform:translate(-50%,-50%);
-  font-family:'Playfair Display',serif;
-  font-size:34px;font-weight:900;
-  color:var(--gold);
-}
-
-.timer-redirect-msg{
-  font-size:13px;color:var(--muted);margin-bottom:20px;
-}
-.timer-redirect-msg strong{color:#22c55e;}
-
+.overlay-note{font-size:12.5px;color:var(--muted2);margin-bottom:20px;}
+.overlay-note strong{color:#1db954;}
 .btn-skip{
   display:inline-flex;align-items:center;gap:8px;
-  padding:14px 32px;border-radius:40px;
-  background:linear-gradient(135deg,#22c55e,#16a34a);
-  color:#fff;font-weight:700;font-size:14px;
-  cursor:pointer;border:none;
-  box-shadow:0 6px 30px rgba(34,197,94,0.3);
-  transition:transform .2s;
+  padding:13px 30px;border-radius:40px;
+  background:linear-gradient(135deg,#1db954,#17a349);
+  color:#fff;font-weight:700;font-size:13.5px;
+  cursor:pointer;border:none;font-family:'Sora',sans-serif;
+  box-shadow:0 6px 28px var(--green-glow);transition:transform .2s;
 }
 .btn-skip:hover{transform:translateY(-2px);}
-
 .btn-cancel{
-  display:block;margin-top:14px;
-  font-size:12px;color:var(--muted);
-  cursor:pointer;text-decoration:underline;background:none;border:none;
+  display:block;margin-top:13px;font-size:11.5px;
+  color:var(--muted);cursor:pointer;background:none;border:none;
+  text-decoration:underline;font-family:'Sora',sans-serif;
 }
-.btn-cancel:hover{color:#fff;}
+.btn-cancel:hover{color:var(--text);}
 
 /* ─── RESPONSIVE ─── */
-@media(max-width:700px){
-  nav{padding:14px 20px;}
-  .nav-badge{display:none;}
+@media(max-width:768px){
+  nav{padding:14px 18px;}
+  .nav-center{display:none;}
   .about-inner{grid-template-columns:1fr;}
-  .about-img{display:none;}
-  .final-cta-box{padding:40px 24px;}
+  .about-photo{display:none;}
+  .final-box{padding:40px 22px;}
+  .hero-title{letter-spacing:-1px;}
+}
+@media(max-width:480px){
+  .stats-bar{gap:8px;}
+  .stat-chip{font-size:11px;padding:7px 14px;}
 }
 </style>
 </head>
@@ -484,280 +618,395 @@ footer a:hover{color:var(--gold);}
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">Trade<span>™</span></div>
-  <div class="nav-badge">⚡ 1M+ Traders Trust Us</div>
-  <a href="#" class="nav-cta" onclick="startTimer(event,'https://t.me/+5tlKt0enxXI0ZGFl')">Join Now →</a>
+  <a href="/" class="nav-logo">Trade with <em>Munaf™</em></a>
+  <div class="nav-center">
+    <span class="nav-dot"></span>
+    Free Education &bull; 1M+ Traders
+  </div>
+  <a href="#join" class="nav-cta" onclick="startTimer(event,'https://t.me/+5tlKt0enxXI0ZGFl')">Join Free →</a>
 </nav>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-glow"></div>
+<section class="hero" id="home">
+  <div class="hero-orb"></div>
   <div class="hero-inner">
-    <div class="hero-eyebrow">
-      <span class="eyebrow-dot"></span>
-      Market Educator & Mentor
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Market Educator &amp; SMC Mentor
     </div>
     <div class="avatar-wrap">
       <div class="avatar-ring">
-        <img src="munaf.jpeg" alt="Munaf" onerror="this.src='https://ui-avatars.com/api/?name=Munaf&size=120&background=f5c518&color=000&bold=true'">
+        <img src="munaf.jpeg" alt="Munaf — Free Trading Educator India" onerror="this.src='https://ui-avatars.com/api/?name=Munaf&size=120&background=e8b84b&color=000&bold=true'">
       </div>
-      <div class="avatar-online"></div>
+      <div class="live-badge">LIVE</div>
     </div>
-    <h1 class="hero-name">Trade with <span class="gold">Munaf™</span></h1>
-    <p class="hero-sub">Master the markets with Smart Money Concepts — from beginner to advanced, completely free.</p>
-    <div class="stats-row">
-      <div class="stat-pill"><span class="num">1M+</span> Traders</div>
-      <div class="stat-pill"><span class="num">100%</span> Free</div>
-      <div class="stat-pill"><span class="num">Daily</span> Live Charts</div>
-      <div class="stat-pill"><span class="num">5★</span> Rated</div>
+    <h1 class="hero-title">
+      Free SMC Trading<br>Education by <span class="accent">Munaf™</span>
+    </h1>
+    <p class="hero-sub">Learn Smart Money Concepts completely free — daily market analysis, live chart sessions, and the support of a 1 million+ strong trading community.</p>
+    <div class="stats-bar">
+      <div class="stat-chip"><span class="val">1M+</span><span class="lbl">Community</span></div>
+      <div class="stat-chip"><span class="val">100%</span><span class="lbl">Free</span></div>
+      <div class="stat-chip"><span class="val">Daily</span><span class="lbl">Live Analysis</span></div>
+      <div class="stat-chip"><span class="val">5★</span><span class="lbl">Rated</span></div>
     </div>
-    <div class="cta-group">
-      <button class="btn-main" onclick="startTimer(event,'https://t.me/+5tlKt0enxXI0ZGFl')">
-        <svg viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-        Join Free Telegram Community
+    <div class="cta-stack" id="join">
+      <button class="btn-primary" onclick="startTimer(event,'https://t.me/+5tlKt0enxXI0ZGFl')" aria-label="Join free Telegram trading community">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        Join the Free Telegram Community
       </button>
-      <p class="cta-note">⏳ Limited seats &nbsp;•&nbsp; <span>Closing soon</span> &nbsp;•&nbsp; No Spam</p>
+      <p class="cta-fine">⏳ Limited seats &nbsp;•&nbsp; <strong>Closing soon</strong> &nbsp;•&nbsp; No Spam, Ever</p>
     </div>
   </div>
 </section>
 
+<!-- DISCLOSURE BANNER -->
+<div class="disclosure" role="note" aria-label="Important educational disclaimer">
+  <strong>⚠️ Important:</strong> This platform is strictly for <strong>educational purposes</strong>. No market analysis constitutes a signal or financial advice. Trading involves risk of capital loss. Please conduct your own research before making any trade.
+</div>
+
 <!-- TICKER -->
-<div class="ticker">
-  <div class="ticker-inner" id="tickerInner">
-    <span class="ticker-item">GOLD &nbsp;<span class="up">▲ +0.82%</span></span>
-    <span class="ticker-item">EURUSD &nbsp;<span class="dn">▼ -0.14%</span></span>
-    <span class="ticker-item">BTC/USD &nbsp;<span class="up">▲ +2.31%</span></span>
-    <span class="ticker-item">NIFTY 50 &nbsp;<span class="up">▲ +0.57%</span></span>
-    <span class="ticker-item">CRUDE OIL &nbsp;<span class="dn">▼ -0.93%</span></span>
-    <span class="ticker-item">GBPUSD &nbsp;<span class="up">▲ +0.21%</span></span>
-    <span class="ticker-item">S&P 500 &nbsp;<span class="up">▲ +1.02%</span></span>
-    <span class="ticker-item">ETH/USD &nbsp;<span class="up">▲ +3.14%</span></span>
-    <span class="ticker-item">SENSEX &nbsp;<span class="dn">▼ -0.36%</span></span>
-    <span class="ticker-item">SILVER &nbsp;<span class="up">▲ +1.45%</span></span>
-    <!-- duplicated for infinite loop -->
-    <span class="ticker-item">GOLD &nbsp;<span class="up">▲ +0.82%</span></span>
-    <span class="ticker-item">EURUSD &nbsp;<span class="dn">▼ -0.14%</span></span>
-    <span class="ticker-item">BTC/USD &nbsp;<span class="up">▲ +2.31%</span></span>
-    <span class="ticker-item">NIFTY 50 &nbsp;<span class="up">▲ +0.57%</span></span>
-    <span class="ticker-item">CRUDE OIL &nbsp;<span class="dn">▼ -0.93%</span></span>
-    <span class="ticker-item">GBPUSD &nbsp;<span class="up">▲ +0.21%</span></span>
-    <span class="ticker-item">S&P 500 &nbsp;<span class="up">▲ +1.02%</span></span>
-    <span class="ticker-item">ETH/USD &nbsp;<span class="up">▲ +3.14%</span></span>
-    <span class="ticker-item">SENSEX &nbsp;<span class="dn">▼ -0.36%</span></span>
-    <span class="ticker-item">SILVER &nbsp;<span class="up">▲ +1.45%</span></span>
+<div class="ticker" aria-label="Live market prices — for educational reference only" role="marquee">
+  <div class="ticker-track">
+    <span class="ticker-item"><span class="sym">GOLD</span> &nbsp;<span class="up">▲ +0.82%</span></span>
+    <span class="ticker-item"><span class="sym">EUR/USD</span> &nbsp;<span class="dn">▼ −0.14%</span></span>
+    <span class="ticker-item"><span class="sym">BTC/USD</span> &nbsp;<span class="up">▲ +2.31%</span></span>
+    <span class="ticker-item"><span class="sym">NIFTY 50</span> &nbsp;<span class="up">▲ +0.57%</span></span>
+    <span class="ticker-item"><span class="sym">CRUDE OIL</span> &nbsp;<span class="dn">▼ −0.93%</span></span>
+    <span class="ticker-item"><span class="sym">GBP/USD</span> &nbsp;<span class="up">▲ +0.21%</span></span>
+    <span class="ticker-item"><span class="sym">S&amp;P 500</span> &nbsp;<span class="up">▲ +1.02%</span></span>
+    <span class="ticker-item"><span class="sym">ETH/USD</span> &nbsp;<span class="up">▲ +3.14%</span></span>
+    <span class="ticker-item"><span class="sym">SENSEX</span> &nbsp;<span class="dn">▼ −0.36%</span></span>
+    <span class="ticker-item"><span class="sym">SILVER</span> &nbsp;<span class="up">▲ +1.45%</span></span>
+    <!-- duplicate for seamless loop -->
+    <span class="ticker-item"><span class="sym">GOLD</span> &nbsp;<span class="up">▲ +0.82%</span></span>
+    <span class="ticker-item"><span class="sym">EUR/USD</span> &nbsp;<span class="dn">▼ −0.14%</span></span>
+    <span class="ticker-item"><span class="sym">BTC/USD</span> &nbsp;<span class="up">▲ +2.31%</span></span>
+    <span class="ticker-item"><span class="sym">NIFTY 50</span> &nbsp;<span class="up">▲ +0.57%</span></span>
+    <span class="ticker-item"><span class="sym">CRUDE OIL</span> &nbsp;<span class="dn">▼ −0.93%</span></span>
+    <span class="ticker-item"><span class="sym">GBP/USD</span> &nbsp;<span class="up">▲ +0.21%</span></span>
+    <span class="ticker-item"><span class="sym">S&amp;P 500</span> &nbsp;<span class="up">▲ +1.02%</span></span>
+    <span class="ticker-item"><span class="sym">ETH/USD</span> &nbsp;<span class="up">▲ +3.14%</span></span>
+    <span class="ticker-item"><span class="sym">SENSEX</span> &nbsp;<span class="dn">▼ −0.36%</span></span>
+    <span class="ticker-item"><span class="sym">SILVER</span> &nbsp;<span class="up">▲ +1.45%</span></span>
   </div>
 </div>
 
-<!-- FEATURES -->
-<section class="section">
-  <p class="section-label">What You Get</p>
-  <h2 class="section-title">Everything you need to <span style="color:var(--gold)">trade smarter</span></h2>
-  <p class="section-sub">A complete ecosystem of free trading education — no subscriptions, no hidden fees.</p>
-  <div class="features-grid">
-    <div class="feat-card">
-      <div class="feat-icon">📊</div>
-      <div class="feat-title">High-Accuracy Analysis</div>
-      <div class="feat-desc">Daily market analysis with clear entry, exit, and stop-loss levels backed by institutional logic.</div>
+<!-- EDUCATIONAL CONTENT SECTION -->
+<div class="edu-strip">
+  <div class="edu-inner">
+    <div class="section-eyebrow">Free Educational Modules</div>
+    <h2 class="section-h">What you will <span class="italic">learn</span> here</h2>
+    <p class="section-p">Every module is completely free. No subscription, no hidden fees — just genuine trading education.</p>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <span class="edu-icon">📊</span>
+        <div class="edu-name">Market Structure Analysis</div>
+        <div class="edu-desc">Clearly understand Breakout of Structure (BOS) and Change of Character (CHoCH). The institutional method for identifying trends.</div>
+        <span class="edu-tag">Beginner</span>
+      </div>
+      <div class="edu-card">
+        <span class="edu-icon">🧱</span>
+        <div class="edu-name">Order Blocks &amp; FVG</div>
+        <div class="edu-desc">Understand where banks and institutions trade from. Apply Order Blocks and Fair Value Gaps directly to price action.</div>
+        <span class="edu-tag">Intermediate</span>
+      </div>
+      <div class="edu-card">
+        <span class="edu-icon">💧</span>
+        <div class="edu-name">Liquidity Concepts</div>
+        <div class="edu-desc">Learn to identify buy-side and sell-side liquidity sweeps — and avoid the traps that catch retail traders off guard.</div>
+        <span class="edu-tag">Intermediate</span>
+      </div>
+      <div class="edu-card">
+        <span class="edu-icon">📹</span>
+        <div class="edu-name">Live Chart Sessions</div>
+        <div class="edu-desc">Watch every concept applied on real-time charts. Everything is explained live — practical education, not just theory.</div>
+        <span class="edu-tag">Daily</span>
+      </div>
+      <div class="edu-card">
+        <span class="edu-icon">📚</span>
+        <div class="edu-name">Trade Case Studies</div>
+        <div class="edu-desc">Detailed breakdowns of past setups — what worked, what didn't, and the psychology behind each decision.</div>
+        <span class="edu-tag">All Levels</span>
+      </div>
+      <div class="edu-card">
+        <span class="edu-icon">🧠</span>
+        <div class="edu-name">Trading Psychology</div>
+        <div class="edu-desc">How to avoid FOMO, revenge trading, and emotional decisions. 80% of profitable trading is about mindset.</div>
+        <span class="edu-tag">Advanced</span>
+      </div>
     </div>
-    <div class="feat-card">
-      <div class="feat-icon">🧠</div>
-      <div class="feat-title">Smart Money Concepts</div>
-      <div class="feat-desc">Learn the real methodology used by banks and institutions — from Order Blocks to Liquidity Sweeps.</div>
+  </div>
+</div>
+
+<!-- CURRICULUM -->
+<section class="curriculum" aria-labelledby="curr-heading">
+  <div class="section-eyebrow">Learning Path</div>
+  <h2 class="section-h" id="curr-heading">Structured <span class="italic">curriculum</span> for every level</h2>
+  <p class="section-p" style="max-width:500px;margin-bottom:0;">A clear roadmap from beginner to professional trader — learn at your own pace.</p>
+  <div class="curr-grid">
+    <div class="curr-item">
+      <div class="curr-num">01</div>
+      <div class="curr-body">
+        <div class="curr-title">Foundation — Understanding Markets</div>
+        <div class="curr-desc">What are Forex, Indices, and Commodities. How price moves. Timeframes and candlestick reading.</div>
+      </div>
     </div>
-    <div class="feat-card">
-      <div class="feat-icon">📹</div>
-      <div class="feat-title">Live Chart Analysis</div>
-      <div class="feat-desc">Watch real-time chart breakdowns and understand how to read price action like a professional.</div>
+    <div class="curr-item">
+      <div class="curr-num">02</div>
+      <div class="curr-body">
+        <div class="curr-title">Market Structure — Trend Identification</div>
+        <div class="curr-desc">Higher highs/lows, BOS, CHoCH. Reading market structure from an institutional vs retail perspective.</div>
+      </div>
     </div>
-    <div class="feat-card">
-      <div class="feat-icon">📚</div>
-      <div class="feat-title">Case Study Library</div>
-      <div class="feat-desc">Real past trades dissected — what worked, what didn't, and the psychology behind each decision.</div>
+    <div class="curr-item">
+      <div class="curr-num">03</div>
+      <div class="curr-body">
+        <div class="curr-title">Smart Money Concepts — Core</div>
+        <div class="curr-desc">Order Blocks, Fair Value Gaps, Imbalances, and Displacement. Practically applying the first principles of SMC.</div>
+      </div>
     </div>
-    <div class="feat-card">
-      <div class="feat-icon">🎯</div>
-      <div class="feat-title">Beginner to Advanced</div>
-      <div class="feat-desc">Structured learning path. Whether you're just starting or refining edge, there's content for every level.</div>
+    <div class="curr-item">
+      <div class="curr-num">04</div>
+      <div class="curr-body">
+        <div class="curr-title">Liquidity — Institutional Traps</div>
+        <div class="curr-desc">Identifying liquidity pools, understanding sweep behaviour, and positioning before major reversals.</div>
+      </div>
     </div>
-    <div class="feat-card">
-      <div class="feat-icon">🤝</div>
-      <div class="feat-title">Community Support</div>
-      <div class="feat-desc">Join a million-strong community. Ask questions, share setups, and grow together every single day.</div>
+    <div class="curr-item">
+      <div class="curr-num">05</div>
+      <div class="curr-body">
+        <div class="curr-title">Risk Management — Capital Protection</div>
+        <div class="curr-desc">Position sizing, stop-loss placement, Risk:Reward ratios. This module is the most important for long-term success.</div>
+      </div>
+    </div>
+    <div class="curr-item">
+      <div class="curr-num">06</div>
+      <div class="curr-body">
+        <div class="curr-title">Live Application — Real Charts, Daily</div>
+        <div class="curr-desc">Everything is applied on real markets in daily analysis sessions. Practice alongside the community.</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ABOUT STRIP -->
-<div class="about-strip">
+<!-- ABOUT -->
+<div class="about-section">
   <div class="about-inner">
-    <div class="about-img">
-      <div class="about-img-frame">
-        <img src="munaf.jpeg" alt="Munaf" onerror="this.src='https://ui-avatars.com/api/?name=Munaf&size=400&background=0d1526&color=f5c518&bold=true'">
+    <div class="about-photo">
+      <div class="about-photo-frame">
+        <img src="munaf.jpeg" alt="Munaf — Trading Educator with 5+ years experience" onerror="this.src='https://ui-avatars.com/api/?name=Munaf&size=400&background=0a1628&color=e8b84b&bold=true'">
       </div>
-      <div class="about-accent">
-        <span class="big">5+ yrs</span>
-        Teaching Markets
+      <div class="about-badge">
+        <span class="big">5+</span>
+        Years Teaching
       </div>
     </div>
-    <div class="about-content">
-      <p class="section-label">About Munaf™</p>
-      <h2 class="section-title">The mentor who trades <span style="color:var(--gold)">what he teaches</span></h2>
-      <p>Munaf is a full-time trader and YouTube educator with over 5 years of experience in Forex, Indices, and Commodities. Trusted by over 1 million traders across India and beyond.</p>
-      <p>His teaching philosophy: no hype, no shortcuts — just the real mechanics of how markets move and how to position yourself on the right side of the trade.</p>
-      <ul class="about-checks">
-        <li>Smart Money Concepts Specialist</li>
-        <li>YouTube Educator with millions of views</li>
-        <li>100% free educational content</li>
-        <li>Active Telegram community</li>
-        <li>Real trades. Real results. Real transparency.</li>
+    <div class="about-right">
+      <div class="section-eyebrow">Your Mentor</div>
+      <h2 class="section-h">Taught by someone who<br>actually <span class="italic">trades</span></h2>
+      <p>Munaf is a full-time trader and YouTube educator with 5+ years of experience trading Forex, Indices, and Commodities. Over 1 million traders in India and worldwide place their trust in him.</p>
+      <p>His teaching philosophy is simple: no hype, no shortcuts — just real market mechanics and honest education. Every concept he teaches is something he uses himself.</p>
+      <ul class="about-list" role="list">
+        <li><span class="icon" aria-hidden="true">✦</span>Smart Money Concepts Specialist</li>
+        <li><span class="icon" aria-hidden="true">✦</span>YouTube Educator — Millions of views</li>
+        <li><span class="icon" aria-hidden="true">✦</span>100% Free educational content, always</li>
+        <li><span class="icon" aria-hidden="true">✦</span>Active daily Telegram community</li>
+        <li><span class="icon" aria-hidden="true">✦</span>Real trades, real transparency, no fake calls</li>
       </ul>
     </div>
   </div>
 </div>
 
 <!-- TESTIMONIALS -->
-<section class="proof-section">
-  <p class="section-label">Community Feedback</p>
-  <h2 class="section-title" style="text-align:center;margin-bottom:16px;">Traders love <span style="color:var(--gold)">this community</span></h2>
-  <p class="section-sub" style="text-align:center;margin-bottom:48px;color:var(--muted);font-size:14px;max-width:460px;margin-left:auto;margin-right:auto;">Real words from real members of our free Telegram group.</p>
-  <div class="proof-grid">
-    <div class="proof-card">
-      <div class="proof-stars">★★★★★</div>
-      <p class="proof-text">"Munaf bhai ka content absolutely genuine hai. SMC sikhne ke baad meri trading completely change ho gayi. 3 months mein profitable ho gaya."</p>
-      <div class="proof-author">
-        <div class="proof-avatar">R</div>
-        <div><div class="proof-name">Rahul M.</div><div class="proof-location">Mumbai, India</div></div>
+<section class="testimonials" aria-labelledby="reviews-heading">
+  <div class="section-eyebrow">Community Reviews</div>
+  <h2 class="section-h" id="reviews-heading" style="text-align:center;margin-bottom:10px;">What traders are <span class="italic">saying</span></h2>
+  <p class="section-p" style="text-align:center;max-width:400px;margin:0 auto;">Real members, real feedback from our free Telegram group.</p>
+  <div class="t-grid">
+    <div class="t-card" itemscope itemtype="https://schema.org/Review">
+      <div class="t-stars" aria-label="5 stars">★★★★★</div>
+      <p class="t-text" itemprop="reviewBody">"Munaf's content is absolutely genuine. My trading completely transformed after learning SMC. I became profitable within 3 months. No paid course needed."</p>
+      <div class="t-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <div class="t-avatar" aria-hidden="true">R</div>
+        <div>
+          <div class="t-name" itemprop="name">Rahul M.</div>
+          <div class="t-loc">Mumbai, India</div>
+        </div>
       </div>
     </div>
-    <div class="proof-card">
-      <div class="proof-stars">★★★★★</div>
-      <p class="proof-text">"The live chart analysis sessions are gold. I've spent money on paid courses that weren't half as useful as this free community. Genuinely grateful."</p>
-      <div class="proof-author">
-        <div class="proof-avatar">A</div>
-        <div><div class="proof-name">Ayesha K.</div><div class="proof-location">Hyderabad, India</div></div>
+    <div class="t-card" itemscope itemtype="https://schema.org/Review">
+      <div class="t-stars" aria-label="5 stars">★★★★★</div>
+      <p class="t-text" itemprop="reviewBody">"The live chart analysis sessions are invaluable. I've spent money on paid courses that weren't half as useful as this free community. Genuinely grateful."</p>
+      <div class="t-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <div class="t-avatar" aria-hidden="true">A</div>
+        <div>
+          <div class="t-name" itemprop="name">Ayesha K.</div>
+          <div class="t-loc">Hyderabad, India</div>
+        </div>
       </div>
     </div>
-    <div class="proof-card">
-      <div class="proof-stars">★★★★★</div>
-      <p class="proof-text">"Maine bohot jagah se trading seekhi — but Munaf bhai ke SMC concepts se jo clarity mili, woh kisi aur ne nahi di. Best free resource for traders."</p>
-      <div class="proof-author">
-        <div class="proof-avatar">Z</div>
-        <div><div class="proof-name">Zaid A.</div><div class="proof-location">Pune, India</div></div>
+    <div class="t-card" itemscope itemtype="https://schema.org/Review">
+      <div class="t-stars" aria-label="5 stars">★★★★★</div>
+      <p class="t-text" itemprop="reviewBody">"I've learned trading from many places — but the clarity I got from Munaf's SMC concepts is unmatched. The best free resource for Indian traders, period."</p>
+      <div class="t-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <div class="t-avatar" aria-hidden="true">Z</div>
+        <div>
+          <div class="t-name" itemprop="name">Zaid A.</div>
+          <div class="t-loc">Pune, India</div>
+        </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" aria-labelledby="faq-heading">
+  <div class="section-eyebrow">FAQ</div>
+  <h2 class="section-h" id="faq-heading" style="text-align:center;">Frequently asked <span class="italic">questions</span></h2>
+  <div class="faq-list" role="list">
+    <div class="faq-item" role="listitem">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false">Is this community completely free?</div>
+      <div class="faq-a">Yes, 100% free. No subscription fees, no hidden charges. Joining the Telegram group is free and all educational content is shared there daily.</div>
+    </div>
+    <div class="faq-item" role="listitem">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false">Are trading signals provided here?</div>
+      <div class="faq-a">No. This platform is for educational purposes only. Any market analysis shared is an educational example, not financial advice or a trading signal. We teach you how to analyse — the decision of what to do is always yours.</div>
+    </div>
+    <div class="faq-item" role="listitem">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false">I'm a complete beginner — can I join?</div>
+      <div class="faq-a">Absolutely! The curriculum starts at beginner level. A structured path is available from foundation all the way to advanced SMC concepts. No prior experience required.</div>
+    </div>
+    <div class="faq-item" role="listitem">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false">Which markets are covered?</div>
+      <div class="faq-a">Primarily Forex (majors), Indices (NIFTY, Sensex, S&P 500), and Commodities (Gold, Silver, Crude Oil). SMC principles are universal — they can be applied to any liquid market.</div>
+    </div>
+    <div class="faq-item" role="listitem">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false">Are profits in trading guaranteed?</div>
+      <div class="faq-a">No, and no honest educator would ever claim otherwise. Trading always carries the risk of capital loss. Education helps you make better decisions, but there are no guarantees. Only use capital you can afford to lose.</div>
     </div>
   </div>
 </section>
 
 <!-- FINAL CTA -->
-<section class="final-cta">
-  <div class="final-cta-box">
-    <p class="section-label">Ready to Start?</p>
-    <h2 class="section-title">Join 1 million+ traders <span style="color:var(--gold)">today</span></h2>
-    <p class="section-sub">Free forever. No spam. Just serious trading education delivered daily to your Telegram.</p>
-    <button class="btn-main" onclick="startTimer(event,'https://t.me/+5tlKt0enxXI0ZGFl')">
-      <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-      Join Free Telegram Community
+<section class="final-section">
+  <div class="final-box">
+    <div class="section-eyebrow">Ready to Learn?</div>
+    <h2 class="section-h">Start <span class="italic">learning</span> with 1 million+ traders</h2>
+    <p class="section-p">Free. Always will be. Daily education, live charts, and India's largest trading community.</p>
+    <button class="btn-primary" onclick="startTimer(event,'https://t.me/+5tlKt0enxXI0ZGFl')" aria-label="Join free Telegram trading education community">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+      Join the Free Telegram Community
     </button>
-    <p style="font-size:12px;color:var(--muted);margin-top:16px;">⏳ Limited seats • Educational purpose only</p>
+    <p style="font-size:11px;color:var(--muted);margin-top:16px;">⏳ Limited seats &nbsp;•&nbsp; Educational purpose only &nbsp;•&nbsp; No spam</p>
   </div>
 </section>
+
+<!-- DISCLAIMER -->
+<div class="disclaimer-section" role="note" aria-label="Full risk and regulatory disclaimer">
+  <div class="disclaimer-inner">
+    <h4>⚠️ Risk Disclaimer &amp; Important Notice</h4>
+    <p>
+      This website and all its content (videos, charts, analysis, posts) is strictly for <strong>educational and informational purposes</strong>. None of the content constitutes financial advice, investment advice, or a trading recommendation.<br><br>
+      Trading and investment carry substantial risk, including the possible loss of your entire invested capital. Past performance is not a guarantee of future results. Leverage products (Forex, CFDs) carry even greater risk.<br><br>
+      Please consult a qualified financial advisor before making any financial decision. This platform is not a SEBI-registered or regulated advisory service.<br><br>
+      This site is not affiliated with Facebook™, Meta™, Telegram™, or any other third-party platform. Educational purpose only. © 2025 Trade with Munaf™
+    </p>
+  </div>
+</div>
 
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">Trade with Munaf™</div>
-  <p style="margin-bottom:10px;">YouTube Educator | Market Mentor | 1M+ Community</p>
-  <p style="margin-bottom:12px;">
-    Powered by <a href="https://t.me/+5tlKt0enxXI0ZGFl" target="_blank" style="color:var(--gold);">Digital Ads Expert</a>
-  </p>
-  <p>
-    <a href="#">Terms</a> &nbsp;|&nbsp;
-    <a href="#">Privacy</a> &nbsp;|&nbsp;
+  <nav class="footer-links" aria-label="Footer navigation">
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
     <a href="#">Disclaimer</a>
-  </p>
-  <p style="margin-top:12px;font-size:10px;">Not affiliated with Facebook™ &nbsp;•&nbsp; Educational purpose only &nbsp;•&nbsp; © 2025 Trade with Munaf™</p>
+    <a href="https://t.me/+5tlKt0enxXI0ZGFl" target="_blank" rel="noopener noreferrer">Telegram</a>
+  </nav>
+  <p class="footer-copy">YouTube Educator · Market Mentor · 1M+ Community<br>
+  Powered by <a href="https://t.me/+5tlKt0enxXI0ZGFl" target="_blank" rel="noopener noreferrer" style="color:var(--gold);text-decoration:none;">Digital Ads Expert</a> &nbsp;•&nbsp; Educational purpose only &nbsp;•&nbsp; © 2025</p>
 </footer>
 
-<!-- ─── TIMER OVERLAY ─── -->
-<div class="timer-overlay" id="timerOverlay">
-  <div class="timer-box">
-    <div class="timer-icon">🚀</div>
-    <div class="timer-title">Joining Community…</div>
-    <div class="timer-sub">You'll be redirected to our free Telegram group in just a moment.</div>
-    <div class="timer-ring">
-      <svg viewBox="0 0 110 110">
-        <circle class="timer-track" cx="55" cy="55" r="50"/>
-        <circle class="timer-fill" id="timerFill" cx="55" cy="55" r="50"/>
+<!-- TIMER OVERLAY -->
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="overlay-title">
+  <div class="overlay-box">
+    <div class="overlay-icon" aria-hidden="true">🚀</div>
+    <div class="overlay-title" id="overlay-title">Joining the Community…</div>
+    <div class="overlay-sub">You are being redirected to the free Telegram group — please wait a moment.</div>
+    <div class="ring" aria-hidden="true">
+      <svg viewBox="0 0 104 104">
+        <circle class="ring-track" cx="52" cy="52" r="47"/>
+        <circle class="ring-fill" id="ringFill" cx="52" cy="52" r="47"/>
       </svg>
-      <div class="timer-count" id="timerCount">10</div>
+      <div class="ring-num" id="ringNum">10</div>
     </div>
-    <p class="timer-redirect-msg">Redirecting to <strong>Telegram ✈️</strong></p>
-    <button class="btn-skip" id="btnSkip">
-      Skip — Take me now →
-    </button>
+    <p class="overlay-note">Redirecting to <strong>Telegram ✈️</strong></p>
+    <button class="btn-skip" id="btnSkip">Skip — Take me there now →</button>
     <button class="btn-cancel" id="btnCancel">Cancel</button>
   </div>
 </div>
 
 <script>
-var redirectUrl = '';
-var timerInterval = null;
-var secondsLeft = 10;
+// ─── FAQ Accordion ───
+document.querySelectorAll('.faq-q').forEach(function(q){
+  q.addEventListener('click',function(){
+    var item=this.closest('.faq-item');
+    var wasOpen=item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open');i.querySelector('.faq-q').setAttribute('aria-expanded','false');});
+    if(!wasOpen){item.classList.add('open');this.setAttribute('aria-expanded','true');}
+  });
+  q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();this.click();}});
+});
 
-var overlay = document.getElementById('timerOverlay');
-var countEl = document.getElementById('timerCount');
-var fillEl  = document.getElementById('timerFill');
-var skipBtn = document.getElementById('btnSkip');
-var cancelBtn = document.getElementById('btnCancel');
+// ─── Timer Overlay ───
+var redirectUrl='';
+var timerInt=null;
+var secs=10;
+var overlay=document.getElementById('overlay');
+var ringNum=document.getElementById('ringNum');
+var ringFill=document.getElementById('ringFill');
+var circ=2*Math.PI*47;
+ringFill.style.strokeDasharray=circ;
+ringFill.style.strokeDashoffset=0;
 
-var circumference = 2 * Math.PI * 50; // ~314
-fillEl.style.strokeDasharray = circumference;
-fillEl.style.strokeDashoffset = 0;
-
-function startTimer(e, url){
+function startTimer(e,url){
   e.preventDefault();
-  redirectUrl = url;
-  secondsLeft = 10;
-
-  // Pixel event
-  var eventID = 'sub_' + Date.now();
-  fbq('track','Subscribe',{value:1,currency:'USD'},{eventID:eventID});
-  fetch('/capi-subscribe',{
-    method:'POST',
-    headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({event_id:eventID})
-  }).catch(function(){});
-
-  countEl.textContent = secondsLeft;
-  fillEl.style.strokeDashoffset = 0;
+  redirectUrl=url;
+  secs=10;
+  ringNum.textContent=secs;
+  ringFill.style.strokeDashoffset=0;
   overlay.classList.add('active');
 
-  timerInterval = setInterval(function(){
-    secondsLeft--;
-    countEl.textContent = secondsLeft;
-    var progress = (10 - secondsLeft) / 10;
-    fillEl.style.strokeDashoffset = circumference * progress;
-    if(secondsLeft <= 0){
-      clearInterval(timerInterval);
-      doRedirect();
-    }
-  }, 1000);
+  // Meta Pixel event
+  try{
+    var eid='sub_'+Date.now();
+    fbq('track','Subscribe',{value:1,currency:'INR'},{eventID:eid});
+  }catch(err){}
+
+  timerInt=setInterval(function(){
+    secs--;
+    ringNum.textContent=secs;
+    ringFill.style.strokeDashoffset=circ*((10-secs)/10);
+    if(secs<=0){clearInterval(timerInt);doRedirect();}
+  },1000);
 }
 
 function doRedirect(){
   overlay.classList.remove('active');
-  window.open(redirectUrl, '_blank');
+  window.open(redirectUrl,'_blank','noopener');
 }
 
-skipBtn.addEventListener('click', function(){
-  clearInterval(timerInterval);
-  doRedirect();
+document.getElementById('btnSkip').addEventListener('click',function(){
+  clearInterval(timerInt);doRedirect();
 });
-
-cancelBtn.addEventListener('click', function(){
-  clearInterval(timerInterval);
+document.getElementById('btnCancel').addEventListener('click',function(){
+  clearInterval(timerInt);
   overlay.classList.remove('active');
 });
+overlay.addEventListener('keydown',function(e){
+  if(e.key==='Escape'){clearInterval(timerInt);overlay.classList.remove('active');}
+});
 </script>
-
 </body>
 </html>
